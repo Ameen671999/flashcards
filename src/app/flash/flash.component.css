@@ -1,0 +1,22 @@
+.card {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-header {
+  cursor: pointer;
+}
+.card-header.incorrect {
+  background: red;
+}
+
+.card-header.correct {
+  background: #52be51;
+}
+
+.correct .card-header.title,
+.incorrect .card-header-title {
+  color: white;
+}
+
